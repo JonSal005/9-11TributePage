@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color:#ffffff;
+    width:25%}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d3d3d3}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 30px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: auto}
+
+#img-caption{
+    background-color:#ffffff;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;}
+
+h3, p, ul {
+    text-align: center;}
+
+ul{
+    list-style-type: none;}
+
+#tribute-info {
+    padding:30px;
+    font-weight:bold;}
+
+@media only screen and (max-width: 768px) {
+    
+    h1 {width: 100%;}
+    img {border: 15px solid white;}
+  }
+  
